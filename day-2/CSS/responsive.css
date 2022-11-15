@@ -1,0 +1,61 @@
+body {
+    background-color: blue;
+}
+
+img {
+    width: 500px;
+}
+
+.text-container p {
+    max-width: 200px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .text-container {
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 561px) {
+    body {
+        background-color: yellow;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    .text-container {
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width: 341px) {
+    body {
+        background-color: violet;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    .text-container {
+        flex-direction: column;
+
+    }
+}

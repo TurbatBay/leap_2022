@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    .texts span{
+        display: none;
+    }
+    .texts::after {
+        content: "xl (extra large) => 1200px";
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .texts span{
+        display: none;
+    }
+    .texts::after {
+        content: "xl (extra large) => 1200px";
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .texts span{
+        display: none;
+    }
+    .texts::after {
+        content: "lg (large) => 992px";
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .texts span{
+        display: none;
+    }
+    .texts::after {
+        content: "md (medium) => 768px";
+    }
+}
+@media only screen and (max-width: 556px) {
+    body {
+        background-color: green;
+    }
+}
