@@ -1,0 +1,16 @@
+body{
+    max-width: 550px;
+    margin: auto;
+}
+input {
+    border-radius: 20px;
+    border:5px solid wheat;
+    font-size: 30px;
+    padding-left: 6px;
+    width: 31px;
+    transition: all 0.5s ease-in-out;
+}
+input:hover {
+    width: 331px;
+    transition: all 0.5s ease-in-out;
+}
