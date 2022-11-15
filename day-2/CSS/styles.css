@@ -1,8 +1,13 @@
 body{
     max-width: 550px;
     margin: auto;
+
+position: relative;
 }
-input {
+form{
+    margin-bottom: 50px;
+}
+#searchbox {
     border-radius: 20px;
     border:5px solid wheat;
     font-size: 30px;
@@ -10,7 +15,43 @@ input {
     width: 31px;
     transition: all 0.5s ease-in-out;
 }
-input:hover {
+#searchbox:hover {
     width: 331px;
     transition: all 0.5s ease-in-out;
+}
+
+/* SHYBOX STARTS HERE */
+
+#shybox {
+width: 200px;
+height: 50px;
+background-color: rebeccapurple;
+
+
+}
+#shybox h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+#shybox p {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 10px;
+    right: 340px;
+}
+#shybox:hover{
+    bottom: -8px;
+    right:390px;
+    background-color: red;
 }
