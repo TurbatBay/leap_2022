@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(24, 172, 188);
+}
+p {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+.texts span{
+    display: none;
+}
+.texts::after {
+    content: "xl (extra large) => 768px";
+}

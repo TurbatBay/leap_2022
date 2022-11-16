@@ -1,0 +1,39 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+.balloons img {
+    width: 14%;
+    border-radius: 20px;
+    /* padding: 10px; */
+
+}
+.balloons {
+    display: flex;
+    justify-content: space-between;
+}
+.cards {
+    display: flex;
+    width: 70%;
+}
+.cards img {
+    width: 30%;
+    border-radius: 20px;
+}
+.last-div {
+    background-color: rgba(199, 199, 199, 0.374);
+    border-radius: 20px;
+    padding: 10px;
+}
+.last-2-section-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+.second-section {
+    width: 70%;
+}
+.last-section {
+    width: 30%;
+}

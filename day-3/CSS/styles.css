@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+
+}
+.topnav a {
+    color: rgb(198, 191, 191);
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+
+}
+.topnav a:hover {
+    background-color: #ddd;
+
+}
+.column {
+    width: 24%;
+    float: left;
+}
