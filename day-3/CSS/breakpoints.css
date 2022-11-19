@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 400px;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        background-color: green;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        background-color: red;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        background-color: pink;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        background-color: yellow;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        background-color: grey;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        background-color: black;
+    }
+}
