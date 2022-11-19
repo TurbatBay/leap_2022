@@ -17,29 +17,54 @@
     .container {
         background-color: green;
     }
+    p::after
+{
+Content: "uurchluh text";
+}
 }
 @media (max-width: 1200px) {
     .container {
         background-color: red;
     }
+    p::after
+{
+Content: "xl (extra large) => 1200px";
+}
 }
 @media (max-width: 992px) {
     .container {
         background-color: pink;
+    }
+    p::after
+    {
+    Content: "lg (large) => 992px";
     }
 }
 @media (max-width: 768px) {
     .container {
         background-color: yellow;
     }
+    p::after
+    {
+    Content: "sm  (small) => 576px";
+    }
+    
 }
 @media (max-width: 576px) {
     .container {
         background-color: grey;
     }
+    p::after
+    {
+    content:     "xs ( extra small ) 576px";
+    }
 }
 @media (max-width: 400px) {
     .container {
         background-color: black;
+    }
+    p::after
+    {
+    Content:"lg (large) => 992px";
     }
 }

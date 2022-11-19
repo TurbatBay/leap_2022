@@ -1,0 +1,58 @@
+.container {
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+p {
+    font-size: 50px;
+    border: 3px grey solid;
+    background-color: green;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        background-color: teal;
+    }
+    .image {
+        content: url(https://short-cgi.com/wp-content/uploads/2018/02/google-favicon-vector-400x400.png);
+    }
+    p::after {
+        content: "Web 1024-->";
+    }
+    
+}
+
+@media (mix-width: 768px) ,(max-width: 1024px) {
+    .container {
+        background-color: yellow;
+    }
+    .image {
+        content: url(https://kongres-magazine.eu/wp-content/uploads/2017/07/linkedin-icon-logo-vector-400x400.png);
+    }
+    p::after {
+        content: "tablet 768-->1024";
+    }
+}
+
+@media (mix-width: 425px), (max-width: 786px) {
+    .container {
+        background-color: yellow;
+    }
+    .image {
+        content: url(https://www.freeiconspng.com/uploads/youtube-icon-400x400-png-17.png);
+    }
+    p::after {
+        content: "mobile 425-->768";
+    }
+}
