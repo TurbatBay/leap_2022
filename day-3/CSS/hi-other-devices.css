@@ -33,7 +33,7 @@ p {
     
 }
 
-@media (mix-width: 768px) ,(max-width: 1024px) {
+@media (min-width: 768px)  and (max-width: 1024px) {
     .container {
         background-color: yellow;
     }
@@ -45,9 +45,9 @@ p {
     }
 }
 
-@media (mix-width: 425px), (max-width: 786px) {
+@media (min-width: 425px) and (max-width: 786px) {
     .container {
-        background-color: yellow;
+        background-color: brown;
     }
     .image {
         content: url(https://www.freeiconspng.com/uploads/youtube-icon-400x400-png-17.png);
@@ -56,3 +56,9 @@ p {
         content: "mobile 425-->768";
     }
 }
+
+@media (max-width: 425px) {
+    .container {
+        background-color: white;
+    }
+    }
