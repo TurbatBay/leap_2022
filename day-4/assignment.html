@@ -14,20 +14,26 @@
 <body>
     <div class="container">
         <!-- NAV BAR HESEG STARTS HERE -->
-        <div class="row">
+        <div class="row bg-info d-flex align-items-center">
             <div class="col col-lg-2 bg-danger">
                 <!--ULAAN UNGU-->
                 <img width="20px" src="/day-4/images/book.png" alt="book">
                 <p>Name</p>
             </div>
-            <div class="col-md text-center bg-secondary">
+            <div class="col-md text-center bg-secondary p-2">
                 <!--SAARAL UNGU-->
                 <p>Menus</p>
             </div>
-            <div class="col col-lg-2 bg-success">
-                <!--GREEN UNGU-->
-                <p>DropDown</p>
-            </div>
+            <div class="col-md-2 d-flex align-items-center dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
         </div>
     </div>
 
