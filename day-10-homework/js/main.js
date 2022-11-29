@@ -78,9 +78,9 @@
 
 
 //21//
-let v;
-const pi;
-pi = 3.14;
-let r = window.prompt("radius ug")
-v = (4/3) * pi (r * r * r)
-console.log(v);
+// let v;
+// const pi;
+// pi = 3.14;
+// let r = window.prompt("radius ug")
+// v = (4/3) * pi (r * r * r)
+// console.log(v);
