@@ -187,11 +187,12 @@
 
 
 // 4.
-let n = prompt ("garaas too oruulna uu")
-if (n<0) {
-    console.log("Surug")
-} else if (n==0) {
-    console.log("0 tei tentsuu")
-} else {
-    console.log("eyreg")
-}
+// let n = prompt ("garaas too oruulna uu")
+// if (n<0) {
+//     console.log("Surug")
+// } else if (n==0) {
+//     console.log("0 tei tentsuu")
+// } else {
+//     console.log("eyreg")
+// }
+
