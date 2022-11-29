@@ -106,12 +106,92 @@
 //tegsh sondgoi oloh
 
 
-let a = prompt ("Garaas too oruulna uu");
-if (a % 2 == 0) {
-    console.log("tegsh too")
+// let a = prompt ("Garaas too oruulna uu");
+// if (a % 2 == 0) {
+//     console.log("tegsh too")
+// } else {
+//     console.log("sondgoi")
+// }
+
+// let a = prompt("Eyreg too oruulna uu");
+// if (a % 3 == 0 || a % 7 == 0) {
+//     console.log("urjwer mun bn")
+// } else {
+//     console.log("huwaagdahgui")
+// }
+
+
+// BMI 5
+
+// let weight = prompt("jingee oruul")
+// let height = prompt ("unduruu oruul in meter For example: 176cm = 1.76m")
+
+// let hariu; 
+// hariu = (weight/(height*height));
+// console.log(hariu)
+
+// if (18.5 > hariu ) {
+//     console.log("Under weight")
+// } else if (18.5 <= hariu && hariu < 24.9) {
+//     console.log("Normal")
+// } else if (25 <= hariu && hariu < 29.9) {
+//     console.log("Over Weight")
+// } else if (30<= hariu && hariu < 34.9) {
+//     console.log("Obesity (Class 1)")
+// } else if (35<= hariu && hariu < 39.9) {
+//     console.log("Obesity (Class 2)")
+// } else {
+//     console.log("Extreme Obesity")
+// }
+
+
+
+//Switch//
+
+
+// let day = prompt("Odroo oruul")
+// console.log(typeof day)
+// let dayName;
+// let dayNumber = Number(day);   //end day-iig Number bolgoj huwirgaj bn
+// console.log(typeof dayNumber)
+
+// switch (dayNumber) {
+//     case 1:
+//         dayName = "Monday";
+//         break;
+//     case 2:
+//         dayName = "Tuesday";
+//         break;
+//     case 3:
+//         dayName = "Wednesday";
+//         break;
+//     case 4:
+//         dayName = "Thursday";
+//         break;
+//     case 5:
+//         dayName = "Friday";
+//         break;
+//     case 6:
+//         dayName = "Saturday";
+//         break;
+//     case 7:
+//         dayName = "Sunday";
+//         break;
+//     default:
+//         dayName = "InvalidDate";
+
+
+// }
+// console.log(dayName);
+
+
+
+// 4.
+let n = prompt ("garaas too oruulna uu")
+if (n<0) {
+    console.log("Surug")
+} else if (n==0) {
+    console.log("0 tei tentsuu")
 } else {
-    console.log("sondgoi")
+    console.log("eyreg")
 }
-
-
-
