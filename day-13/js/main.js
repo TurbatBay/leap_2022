@@ -80,10 +80,22 @@
 // }
 // console.log("game-over");
 
-//inner zagdaa meme + lock
+                //inner zagdaa meme + lock
+                    //toonii niilber bodlogo done
+// let too = Number(prompt("Ehnii toogoo oruulna uu"));
+// let sum = 0;
+
+// while (too > 0) {
+//     console.log(too);
+//     sum = (too + sum); //6 + 5 + 4 + 3 + 2 + 1 
+//     too = too -1;
+// }
+// console.log("nemelt " + sum)
+
+                    //tegsh toog oloh bodlogo
 
 let too = Number(prompt("Ehnii toogoo oruulna uu"));
-let sum = 0;
+let tegsh = 0;
 
 while (too > 0) {
     console.log(too);
