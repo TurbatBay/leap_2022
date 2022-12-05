@@ -78,7 +78,7 @@
 sum=13 s=1 */
 
 
-        // ugugdsun toonii tsifruudiig ugeer hewleh program bich//
+//         ugugdsun toonii tsifruudiig ugeer hewleh program bich//
 
 // let n = Number(prompt("n too garaas ug"));
 
@@ -121,4 +121,7 @@ for (sum = 1; sum <= n; sum++) {
 } 
 console.log(i);
 
+
+                //fibonacci
+                
 
