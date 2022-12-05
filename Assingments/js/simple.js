@@ -116,8 +116,6 @@ let i = 1;
 
 for (sum = 1; sum <= n; sum++) {  
   i = i * sum;
-    
-    
 } 
 console.log(i);
 
