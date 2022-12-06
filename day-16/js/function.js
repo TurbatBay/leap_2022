@@ -72,3 +72,23 @@ function f6(x) {
     
 }
 f6(10);
+
+
+//8
+
+
+function multiplyTwoNumbers (x,y) {
+    return x *y;
+}
+console.log(multiplyTwoNumbers(4, 5));
+
+
+
+
+function multiplyThreeNumbers (x,y,z) {
+    const m = x * y * z
+    return m;
+}
+const result = multiplyThreeNumbers(4,5,6)
+console.log(result);
+
