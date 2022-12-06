@@ -20,3 +20,4 @@ if (k == s) {
 } else {
     console.log("bish")
 }
+// n = 321
