@@ -1,7 +1,16 @@
 
 let n = Number(prompt("n toog ugnu uu"))
 
-for (let i = 0;i < n;i++) {
-    console.log(i);
 
+if (n < 9) {
+    for (let i = 9;i >= n;i--) {
+    
+        console.log(i);
+    }
+} else for (let i = 9;i <= n;i++) {
+    
+    console.log(i);
+    
 }
+
+
