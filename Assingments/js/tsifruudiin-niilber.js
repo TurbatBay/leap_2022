@@ -7,7 +7,6 @@ let k = 0;
 while (0 != n) {
     d = n % 10; // d = 5
     s = s + d; //s = 5
-
     n = Math.round(n / 10)
 }
 console.log(s)
