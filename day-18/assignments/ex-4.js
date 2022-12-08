@@ -1,6 +1,3 @@
-let input = [4,5,3,6,1];
-input.reverse();
-console.log(input)
-
-
-//done 1/1
+let parameterizeStr = ["This", "Is", "Where" , "I", "Begin"];
+console.log(parameterizeStr);
+console.log(parameterizeStr.join("-"));
