@@ -58,7 +58,10 @@
 
 
 //ex.4
-let y = (arr) => {
+       //ene heseg bol zugeer beldsen too bodoh 
+                          //tomyo maygiin heseg zugeer orluulal ashiglachihaad orhino gsn ug
+                          
+    let y = (arr) => { 
     let sum = 0;
     for(let i = 0;i < arr.length;i++) {
         sum = sum + arr[i];
@@ -67,5 +70,7 @@ let y = (arr) => {
     const average =(sum / arr.length);
     return average;
 }
-let arr = [1,2,3,4,5,6];
+let arr = [1,2,3,4,5,6];        //harin ene heseg bol jinhene utgan deer ajillah heseg y = (arr) gehed l
+                                //minii tomyo orj irne gsn ug tegeed arr gj uuriin utguudaa oruulaad console.log oor hariugaa gargana
+
 console.log(y(arr))
