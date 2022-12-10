@@ -10,5 +10,6 @@ let ix = 4 != "4";
 let x = 4 == "4";
 let xi = 4 === "4";
 
+console.log(i)
 
 
