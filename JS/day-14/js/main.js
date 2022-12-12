@@ -18,7 +18,6 @@ console.log("find out even numbers from 1 to 10")
 // for (let start = 1; start <= max; start++) {
 //     if (start % 2 == 0) {
 //         console.log(start);
-//         start++;
 //     }
 // }
 
