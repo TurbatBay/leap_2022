@@ -11,8 +11,8 @@ function validation(inputs) {
     console.log(password.value);
     let repeatPassword = inputs.repeatPsw;
     console.log(repeatPassword.value);
-    if ((repeatPassword.value == password.value && password.value.length >= 8) && inputs.email.value.includes("@")) {
-      console.log("adilhan password bn bas 8s ih bn bas @tai bn tentslee")
+    if ((repeatPassword.value == password.value && password.value.length >= 8) && inputs.email.value.includes("@" && ".")) {
+      console.log("adilhan password bn bas 8s ih bn bas @ bolo . tei bn tentslee")
       return true;
     } else {
       console.log("naah")
@@ -21,7 +21,7 @@ function validation(inputs) {
     //жишээ хэрэглээ
     console.log("Email input ийн урт: ", inputs.email.value.length);
     return false;
-  }
+  } 
   
   // бүх input үүдийг inputs-д авч байна
   const inputs = document.getElementsByTagName("input");
