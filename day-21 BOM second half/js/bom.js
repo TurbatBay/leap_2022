@@ -87,7 +87,7 @@ startButton.addEventListener("click", runTimerInterval)
         // myTimer.innerHTML = now;
         console.log(counter);
         counter++; //negeer nemegdeed ywj bgaa uildel maani
-        myTimer.innerHTML = now.getSeconds();  //eniig hiisneer My Timer gsn <p> n secondoor soligdono
+        myTimer.innerHTML = now.getFullYear();  //eniig hiisneer My Timer gsn <p> n secondoor soligdono
     }
     
 
