@@ -6,7 +6,9 @@ buttonTime.addEventListener("click", runTimerInterval)
     function runTimerInterval () {
         window.setInterval(startInterval, 1000);   //Ehluulj baigaa n  todorhoi hugatsaanii daraa dawtan hiih
     }
-
+    if (now.getMinutes < 10) {
+        now.getMinutes = "0" + now.getMinutes;
+    }
 
     function startInterval() {
         let now = new Date();
